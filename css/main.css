@@ -163,3 +163,37 @@ footer ul li a {
   margin: 10px;
   color: #5f6368;
 }
+
+@media screen and (max-width: 576px) {
+  header nav .nav-right-section {
+    justify-content: flex-end;
+  }
+  main .main-logo {
+    width: 100%;
+  }
+  main .main-input {
+    width: 95%;
+  }
+  main .main-input-container {
+    width: 100%;
+  }
+  main .main-input input {
+    width: 85%;
+  }
+  main .main-buttons {
+    width: 100%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  footer .footer-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer .footer-left li {
+    padding: 8px 0;
+  }
+}
